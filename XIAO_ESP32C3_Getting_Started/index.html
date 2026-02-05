@@ -1,4 +1,4 @@
-<!doctype html><html lang=en-US dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_ESP32C3/XIAO_ESP32C3_Getting_Started" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.8.1"><title data-rh=true>Getting Started with Seeed Studio XIAO ESP32C3 | Seeed Studio Wiki</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:url content=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/><meta data-rh=true property=og:locale content=en_US><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="Getting Started with Seeed Studio XIAO ESP32C3 | Seeed Studio Wiki"><meta data-rh=true name=description content="Getting Started with Seeed Studio XIAO ESP32C3"><meta data-rh=true property=og:description content="Getting Started with Seeed Studio XIAO ESP32C3"><meta data-rh=true property=og:image content=https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png><meta data-rh=true name=twitter:image content=https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png><meta data-rh=true name=docsearch:sku_tag content=113991054,102010633,101991467><meta data-rh=true name=docsearch:doc_type_tag content=gettingstarted><link data-rh=true rel=icon href=/img/S.png><link data-rh=true rel=canonical href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/><link data-rh=true rel=alternate href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/ hreflang=en-US><link data-rh=true rel=alternate href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/ hreflang=x-default><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series_Introduction","name":"XIAO","position":1},{"@type":"ListItem","item":"https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started","name":"Getting Started with Seeed Studio XIAO ESP32C3","position":2}]}</script><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="Seeed Studio Wiki RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="Seeed Studio Wiki Atom Feed"><link rel=preconnect href=https://www.googletagmanager.com><script>window.dataLayer=window.dataLayer||[],function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var d=t.getElementsByTagName(a)[0],g=t.createElement(a);g.async=!0,g.src="https://www.googletagmanager.com/gtm.js?id="+r+("dataLayer"!=n?"&l="+n:""),d.parentNode.insertBefore(g,d)}(window,document,"script","dataLayer","GTM-M4JG2HVB")</script><link rel=search type=application/opensearchdescription+xml title="Seeed Studio Wiki" href=/opensearch.xml><script src=https://viewer.altium.com/client/static/js/embed.js async></script><script src=/js/custom.js async></script><script src=/js/language-switcher.js async></script><link rel=stylesheet href=/assets/css/styles.900154df.css><script src=/assets/js/runtime~main.81251947.js defer></script><script src=/assets/js/main.84870d7c.js defer></script><body class=navigation-with-keyboard><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4JG2HVB" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
+<!doctype html><html lang=en-US dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_ESP32C3/XIAO_ESP32C3_Getting_Started" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.8.1"><title data-rh=true>Getting Started with Seeed Studio XIAO ESP32C3 | Seeed Studio Wiki</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:url content=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/><meta data-rh=true property=og:locale content=en_US><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="Getting Started with Seeed Studio XIAO ESP32C3 | Seeed Studio Wiki"><meta data-rh=true name=description content="Getting Started with Seeed Studio XIAO ESP32C3"><meta data-rh=true property=og:description content="Getting Started with Seeed Studio XIAO ESP32C3"><meta data-rh=true property=og:image content=https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png><meta data-rh=true name=twitter:image content=https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png><meta data-rh=true name=docsearch:sku_tag content=113991054,102010633,101991467><meta data-rh=true name=docsearch:doc_type_tag content=gettingstarted><link data-rh=true rel=icon href=/img/S.png><link data-rh=true rel=canonical href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/><link data-rh=true rel=alternate href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/ hreflang=en-US><link data-rh=true rel=alternate href=https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/ hreflang=x-default><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series_Introduction","name":"XIAO","position":1},{"@type":"ListItem","item":"https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started","name":"Getting Started with Seeed Studio XIAO ESP32C3","position":2}]}</script><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="Seeed Studio Wiki RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="Seeed Studio Wiki Atom Feed"><link rel=preconnect href=https://www.googletagmanager.com><script>window.dataLayer=window.dataLayer||[],function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var d=t.getElementsByTagName(a)[0],g=t.createElement(a);g.async=!0,g.src="https://www.googletagmanager.com/gtm.js?id="+r+("dataLayer"!=n?"&l="+n:""),d.parentNode.insertBefore(g,d)}(window,document,"script","dataLayer","GTM-M4JG2HVB")</script><link rel=search type=application/opensearchdescription+xml title="Seeed Studio Wiki" href=/opensearch.xml><script src=https://viewer.altium.com/client/static/js/embed.js async></script><script src=/js/custom.js async></script><script src=/js/language-switcher.js async></script><link rel=stylesheet href=/assets/css/styles.900154df.css><script src=/assets/js/runtime~main.b04d4c4c.js defer></script><script src=/assets/js/main.d73b2561.js defer></script><body class=navigation-with-keyboard><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4JG2HVB" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
 
 
 <svg xmlns=http://www.w3.org/2000/svg style="display: none;"><defs>
@@ -13,7 +13,7 @@
 <p>This wiki will show you how you can quickly get started with XIAO ESP32C3!</p>
 <div class=get_one_now_container style=text-align:center><a class=get_one_now_item href=https://www.seeedstudio.com/seeed-xiao-esp32c3-p-5431.html target=_blank><strong><span><font color=FFFFFF size=4> Get One Now 🖱️</font></span></strong></a></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=specifications>Specifications<a href=#specifications class=hash-link aria-label="Direct link to Specifications" title="Direct link to Specifications">​</a></h3>
-<table><thead><tr><th>Item<th>Seeed Studio XIAO ESP32C3<th>Seeeduino XIAO<th>Seeed XIAO RP2040<th>Seeed XIAO nRF52840<th>Seeed XIAO nRF52840 Sense<tbody><tr><th>Processor<td>ESP32-C3 32-bit RISC-V @160MHz<td>SAMD21 M0+@48MHz<td>RP2040 Dual-core M0+@133Mhz<td>nRF52840 M4F@64MHz<td>nRF52840 M4F@64MHz<tr><th>Wireless Connectivity<td>WiFi and Bluetooth 5 (BLE)<td>N/A<td>N/A<td>Bluetooth 5.0/BLE/NFC<td>Bluetooth 5.0/BLE/NFC<tr><th>Memory<td>400KB SRAM, 4MB onboard Flash<td>32KB SRAM 256KB FLASH<td>264KB SRAM 2MB onboard Flash<td>256KB RAM, 1MB Flash 2MB onboard Flash<td>256KB RAM,1MB Flash 2MB onboard Flash<tr><th>Built-in Sensors<td>N/A<td>N/A<td>N/A<td>N/A<td>6 DOF IMU (LSM6DS3TR-C), PDM Microphone<tr><th>Interfaces<td>I2C/UART/SPI<td>I2C/UART/SPI<td>I2C/UART/SPI<td>I2C/UART/SPI<td>I2C/UART/SPI<tr><th>PWM/Analog Pins<td>11/4<td>11/11<td>11/4<td>11/6<td>11/6<tr><th>Onboard Buttons<td>Reset/ Boot Button<td>N/A<td>Reset/ Boot Button<td>Reset Button<td>Reset Button<tr><th>Onboard LEDs<td>Charge LED<td>N/A<td>Full-color RGB/ 3-in-one LED<td>3-in-one LED/ Charge LED<td>3-in-one LED/ Charge LED<tr><th>Battery Charge Chip<td>ETA4054S2F<td>N/A<td>N/A<td>BQ25101<td>BQ25101<tr><th>Programming Languages<td>Arduino/ MicroPython<td>Arduino/ CircuitPython<td colspan=3 align=center>Arduino/ MicroPython/ CircuitPython</table>
+<table><tr><th>Parameter<th>Description<tr><td>Processor<td>ESP32-C3 SoC<br>RISC-V single-core 32-bit chip processor with a four-stage pipeline that operates at up to 160 MHz<tr><td>Wireless<td>Complete 2.4GHz Wi-Fi subsystem<br>Bluetooth Low Energy 5.0/ Bluetooth Mesh<tr><td>On-chip Memory<td>400KB SRAM & 4MB Flash<tr><td>Interface<td>1x UART<br>1x IIC<br>1x SPI<br>11x GPIO(PWM)<br>4x ADC<br>1x Reset button<br>1x Boot button<tr><td>Dimensions<td>21 x 17.8mm<tr><td>Power(Typ.)<td>Max 3.3V Output Current: 500mA<br>Test Condition: BAT Pin Input @ 3.8V<br>Source Capability: 3A<br>Charging current: 380mA(Fast) / 40mA(Trickle)<br>Input voltage (VIN): 5V<br>Input voltage (BAT): 3.7V<tr><td>Deep Sleep Power Consumption<td>Deep Sleep Mode: 44 μA<tr><td>Wi-Fi Enabled Power Consumption<td>Active Mode: 75 mA<br>Modem-sleep Mode: 25 mA<br>Light-sleep Mode: 4 mA<tr><td>BLE Enabled Power Consumption<td>Modem-sleep Mode: 27 mA<br>Light-sleep Mode: 10 mA<tr><td>Working Temperature<td>-40°C ~ 85°C</table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=features>Features<a href=#features class=hash-link aria-label="Direct link to Features" title="Direct link to Features">​</a></h3>
 <ul>
 <li><strong>Powerful CPU:</strong> ESP32-C3, 32­bit RISC­-V single­core processor that operates at up to 160 MHz</li>
@@ -182,49 +182,43 @@ We recommend that you have good hands-on skills and better soldering skills befo
 <li><a href=https://github.com/IcingTomato/micropython_xiao_esp32c3 target=_blank rel="noopener noreferrer">XIAO ESP32C3 MicroPython Repo</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id=resources>Resources<a href=#resources class=hash-link aria-label="Direct link to Resources" title="Direct link to Resources">​</a></h2>
+<p><strong>Hardware Design</strong></p>
 <ul>
-<li>
-<p>📄**[PDF]** <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/esp32-c3_datasheet.pdf target=_blank rel="noopener noreferrer">ESP32C3 datasheet</a></p>
+<li><strong>📄[Datasheet]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/esp32-c3_datasheet.pdf target=_blank rel="noopener noreferrer">ESP32-C3 Datasheet</a></li>
+<li><strong>📄[Schematic]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO_ESP32C3_v1.3_SCH_260116.pdf target=_blank rel="noopener noreferrer">XIAO ESP32-C3 Schematic</a></li>
+<li><strong>🗃️[PCB Design Files]</strong>
+<ul>
+<li><a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO_ESP32C3_v1.3_KiCad_260116.zip target=_blank rel="noopener noreferrer">XIAO ESP32-C3 KiCad Project</a></li>
+</ul>
 </li>
-<li>
-<p>📄 <strong>[PDF]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeeduino-XIAO-ESP32C3-SCH.pdf target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 Schematic</a></p>
+<li><strong>🗃️[PCB Design Libraries]</strong>
+<ul>
+<li><a href=https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip target=_blank rel="noopener noreferrer">XIAO Series KiCad Footprints</a></li>
+<li><a href=https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip target=_blank rel="noopener noreferrer">XIAO Series KiCad SCH Symbols</a></li>
+</ul>
 </li>
-<li>
-<p>🗃️ <strong>[ZIP]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeeduino-XIAO-ESP32C3-KiCAD-Library.zip target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 KiCAD Libraries</a></p>
+<li><strong>📄[Pinout Diagram]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-pinout_sheet.xlsx target=_blank rel="noopener noreferrer">XIAO ESP32-C3 Pinout Sheet</a></li>
+</ul>
+<p><strong>Mechanical</strong></p>
+<ul>
+<li><strong>📄[2D Dimensions]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-DXF.zip target=_blank rel="noopener noreferrer">XIAO ESP32-C3 Dimension in DXF</a></li>
+<li><strong>🗃️[2D Dimensions]</strong> <a href=https://files.seeedstudio.com/wiki/Seeed-Studio-XIAO-ESP32/XIAO_ESP32C3_v1.2_Dimensioning.zip target=_blank rel="noopener noreferrer">XIAO ESP32-C3 Bottom Pad Data</a></li>
+<li><strong>📄[3D Model]</strong> <a href=https://grabcad.com/library/seeed-studio-xiao-esp32-c3-1 target=_blank rel="noopener noreferrer">XIAO ESP32-C3 3D Model</a></li>
+</ul>
+<p><strong>Software & Tools</strong></p>
+<ul>
+<li><strong>🗃️[Factory Firmware]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/ESP32-C3_RFTest_108_2b9b157_20211014.bin target=_blank rel="noopener noreferrer">XIAO ESP32-C3 Factory Firmware</a></li>
+<li><strong>🔗[MicroPython Library]</strong> <a href=https://github.com/IcingTomato/micropython_xiao_esp32c3 target=_blank rel="noopener noreferrer">XIAO ESP32-C3 MicroPython Library</a></li>
+<li><strong>🔗[Platform IO]</strong> <a href=https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32c3.html target=_blank rel="noopener noreferrer">PlatformIO for Seeed Studio XIAO ESP32-C3</a></li>
+</ul>
+<p><strong>Others</strong></p>
+<ul>
+<li><strong>🔗[Wiki]</strong> <a href=https://sigmdel.ca/michel/ha/xiao/xiao_esp32c3_intro_en.html target=_blank rel="noopener noreferrer">First Look at the Seeed Studio XIAO ESP32-C3</a>
+<ul>
+<li>A great intro to the XIAO ESP32C3, covering key features and basic usage.</li>
+</ul>
 </li>
-<li>
-<p>🗃️ <strong>[ZIP]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-v1.2_SCH-PCB.zip target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 Eagle Libraries</a></p>
-</li>
-<li>
-<p>🗃️ <strong>[ZIP]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/ESP32-C3_RFTest_108_2b9b157_20211014.bin target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 Factory firmware</a></p>
-</li>
-<li>
-<p>📄 <strong>[DXF]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-DXF.zip target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 Dimension in DXF</a></p>
-</li>
-<li>
-<p>📄 <strong>[LBR]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeed-Studio-XIAO-ESP32C3-footprint-eagle.lbr target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 Eagle footprint</a></p>
-</li>
-<li>
-<p>📄 <strong>[XLSX]</strong> <a href=https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-pinout_sheet.xlsx target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 pinout sheet</a></p>
-</li>
-<li>
-<p>🔗 <strong>[STEP]</strong> <a href=https://grabcad.com/library/seeed-studio-xiao-esp32-c3-1 target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 3D Model</a></p>
-</li>
-<li>
-<p>🔗 <strong>[GitHub]</strong> <a href=https://github.com/IcingTomato/micropython_xiao_esp32c3 target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 MicroPython Library</a></p>
-</li>
-<li>
-<p>🔗 <strong>[Link]</strong> <a href=https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32c3.html target=_blank rel="noopener noreferrer">Platform IO for Seeed Studio XIAO ESP32</a></p>
-</li>
-<li>
-<p>🔗 <strong>[WiKi]</strong> <a href=https://sigmdel.ca/michel/ha/xiao/xiao_esp32c3_intro_en.html target=_blank rel="noopener noreferrer">First Look at the Seeed Studio XIAO ESP32C3</a>  A great intro to the XIAO ESP32C3, covering key features and basic usage.</p>
-</li>
-<li>
-<p>📚 <strong>[Ebook]</strong> <a href=https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/ target=_blank rel="noopener noreferrer">XIAO: Big Power, Small Board Mastering Arduino and TinyML</a> Excellent guide for mastering Arduino and TinyML on XIAO boards.</p>
-</li>
-<li>
-<p>🔗 <strong>[Kicad]</strong> <a href=https://github.com/Seeed-Studio/OPL_Kicad_Library/tree/master/Seeed%20Studio%20XIAO%20Series%20Library target=_blank rel="noopener noreferrer">Seeed Studio XIAO ESP32C3 FootPrint</a></p>
-</li>
+<li><strong>📄[Document]</strong> <a href=https://files.seeedstudio.com/wiki/Seeed-Studio-XIAO-ESP32/Low_Power_Consumption.pdf target=_blank rel="noopener noreferrer">Report of XIAO ESP32-C3 Low Power Consumption</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id=course-resources>Course Resources<a href=#course-resources class=hash-link aria-label="Direct link to Course Resources" title="Direct link to Course Resources">​</a></h2>
 <div align=middle><img width=400 src=https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/cover.jpg></div>
